@@ -2,8 +2,6 @@
 
 WATTRIX is an AI-powered industrial energy monitoring and analytics platform that tracks machine-level electricity consumption in real time and delivers intelligent optimization insights. It integrates IoT simulation, stream-ready architecture, machine learning models, and an agentic AI advisor into a single industrial-grade system.
 
----
-
 ## Problem Statement
 
 Industries consume 40–50% of global electricity, yet most facilities rely on centralized meters that provide only aggregated data. This makes it impossible to identify which machines are inefficient, consuming abnormal power, or approaching failure.
@@ -16,8 +14,6 @@ WATTRIX solves this by providing:
 - Carbon footprint monitoring
 - Agentic AI recommendations for operational optimization
 
----
-
 ## Features
 
 - Real-time monitoring of 10 simulated industrial machines
@@ -29,8 +25,6 @@ WATTRIX solves this by providing:
 - Industrial dark-theme React dashboard with live auto-updating charts
 - FastAPI backend with full Swagger documentation
 - Synthetic dataset of 100,800 rows across 7 days with injected fault profiles
-
----
 
 ## Tech Stack
 
@@ -58,8 +52,6 @@ WATTRIX solves this by providing:
 - Realistic shift patterns, Gaussian noise, fault injection
 - Exportable as CSV (100,800 rows x 15 columns)
 
----
-
 ## Project Structure
 
 ```
@@ -76,8 +68,6 @@ wattrix/
 │       └── App.jsx                # Entry point
 └── README.md
 ```
-
----
 
 ## Setup and Installation
 
@@ -134,8 +124,6 @@ Get a free key at `console.groq.com`. If skipped, the system uses rule-based rec
 | GET /api/agent | Agentic AI recommendations |
 | GET /docs | Swagger UI |
 
----
-
 ## Dashboard Modules
 
 - **Overview** — Total power, active machines, anomaly count, CO2/hour, live power chart, machine status grid
@@ -144,8 +132,6 @@ Get a free key at `console.groq.com`. If skipped, the system uses rule-based rec
 - **Maintenance** — Active alerts, machine health scores, severity indicators
 - **Carbon** — CO2 emissions per machine, monthly projections, emission factor details
 - **AI Advisor** — Agentic AI findings and recommendations, per-machine intelligence panel
-
----
 
 ## Dataset
 
@@ -173,8 +159,6 @@ Fault profiles are injected on:
 - Machine 2 (Hydraulic Press) — bearing wear
 - Machine 5 (Compressor A) — overload spikes
 - Machine 8 (Lathe Machine) — voltage sag
-
----
 
 ## Architecture
 
